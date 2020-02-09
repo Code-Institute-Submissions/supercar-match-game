@@ -1,15 +1,7 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+<h1>Supercar match game</h1>
 
+<h3>Hello and welcome to my 'Readme', the Readme will give you lot's of information about the game that I have constructed.</h3><br>
 
-Hi there! Welcome to AWS Cloud9!
+The game has been constructed for my Code Institute Frontend Development milestone project.<br>
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# supercar-match-game
+<h2>UX.</h2><br>
