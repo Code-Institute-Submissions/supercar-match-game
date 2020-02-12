@@ -1,3 +1,9 @@
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/logos/SmallLogo.png" width="100" >
+
+
+
+
+
 <h3>Hello and welcome to my 'Readme', the Readme will give you lot's of information about the game that I have constructed.</h3><br>
 
 <p>The game has been constructed for my Code Institute Frontend Development milestone project.</p><br>
