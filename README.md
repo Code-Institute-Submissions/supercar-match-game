@@ -29,8 +29,7 @@ So the feedback was taken onboard and changes were made.
 
 <ol>
 <li>20 cars now added with 5 spares to change appearance of game in the future.</li>
-<li>Windows now change colour when clicked upon once from green to yellow to throw concentration.</li>
-<li>The greyscale background is now green and yellow with '?'.</li>
+<li>The greyscale background is now green with '?'.</li>
 </ol>
 
 
@@ -84,6 +83,14 @@ So the feedback was taken onboard and changes were made.
 <li>"Congratulations You have won Click begin to start new game".</li>
 </ul>
 
+<h2>FUTURE FEATURES.</h2>
+
+<ol>
+<li>Have a count down or count up timer.</li>
+<li>Have the ability to choose between different grids.</li>
+<li>Have a difficulty feature added.</li>
+<li>Have points and a score board.</li>
+</ol>
 
 <h2>COOKIE POLICY.</h2>
 
@@ -104,11 +111,10 @@ So the feedback was taken onboard and changes were made.
 
 
 
-<p><strong>HTML5</strong> is displayed as index.html and is a simple file with 4 div's.</p>
+<p><strong>HTML5</strong> is displayed as index.html and is a simple file with 3 div's.</p>
 
 <ul>
 <li>"run".</li>
-<li>"Score".</li>
 <li>"message".</li>
 <li>"layout".</li>
 <li>"and a button with a class as class="btn">Begin<".</li>
@@ -155,7 +161,10 @@ So the feedback was taken onboard and changes were made.
 <li><a href="https://www.myphotopuzzle.co.uk/">My Photo Puzzle</a></li>
 <li><a href="http://mypuzzle.org/">mypuzzle.org</a></li>
 <li><a href="https://matchthememory.com/">match the memory</a></li>
+<li><a href="https://www.traversymedia.com/">Traversy Media</a></li>
 </ul><br>
+
+<p>I would like to thank Brad at Traversy Media for giving me an insight into "Mark Down Language".</p></br>
 
 <h2>ADDITIONAL RESOURCES USED.</h2>
 
