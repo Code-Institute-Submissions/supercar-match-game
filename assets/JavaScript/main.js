@@ -10,9 +10,9 @@ var gamePlay = false;
 var runButton = document.getElementById('run'); 
 var layOut = document.getElementById('layout');
 var message = document.getElementById('message');
-
 //event listens
 runButton.addEventListener('click', runGame); 
+
 function runGame() {
     cardFlipped = -1;
     playLockout = false;
@@ -43,7 +43,6 @@ function buildBoard() {
   }
   layout.innerHTML = html;
 }
-
 
 
 // picking a card function to pick a supercar and it will flip over in the window
@@ -113,4 +112,16 @@ function cardFlip(w, wi) {
 function checkSrc(v) {
   var v = document.getElementById(v).src;
   return v;
+}
+
+
+// math function to make the random pattern work
+function shuffleArray(array) {
+  for (var x = array.length - 1; x > 0; x--) {
+    var holder = Math.floor(Math.random() * (x + 1));
+    var itemValue = array[x];
+    array[x] = array[holder];
+    array[holder] = itemValue;
+  }
+  return array;
 }
