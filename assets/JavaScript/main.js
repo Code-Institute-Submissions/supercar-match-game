@@ -87,3 +87,30 @@ function hideCard() {
   cardFlipped = -1;
   message.innerHTML = "Click any window";
 }
+
+
+// game over function to message player that they have won and to reset the game
+function gameover() {
+  runButton.style.display = 'block';
+  message.innerHTML = "Congratulations You have won click begin to start new game";
+  gamePlay = false;
+  windowImages = [];
+  windowFlippedOver = [];
+}
+
+
+function isinArray(v, array) {
+  return array.indexOf(v) > -1;
+}
+
+
+function cardFlip(w, wi) {
+  w.src = "images/" + windowArray[wi];
+  windowFlippedOver.push(w.id);
+}
+
+
+function checkSrc(v) {
+  var v = document.getElementById(v).src;
+  return v;
+}
