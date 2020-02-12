@@ -101,7 +101,7 @@ So the feedback was taken onboard and changes were made.
 
 <ul>
 <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML5</a> is the standard markup language for creating Web pages.</li>
-<li><a href="https://www.w3schools.com/css/default.asp">CSS3</a>< stands for Cascading Style Sheets and is used to style HTML.</li>
+<li><a href="https://www.w3schools.com/css/default.asp">CSS3</a> stands for Cascading Style Sheets and is used to style HTML.</li>
 <li><a href="https://www.w3schools.com/js/js_intro.asp">JavaScript</a> is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.).</li>
 <li><a href="https://aws.amazon.com/cloud9/">AWS Cloud9</a> is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal.</li>
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> is one of my favourite cloud based IDE's.</li>
