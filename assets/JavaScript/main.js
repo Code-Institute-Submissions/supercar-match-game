@@ -43,3 +43,35 @@ function buildBoard() {
   }
   layout.innerHTML = html;
 }
+
+
+
+// picking a card function to pick a supercar and it will flip over in the window
+function pickCard(windowIndex, w) {
+  if (!isinArray(w.id, windowFlippedOver) && !playLockout) {
+    if (cardFlipped >= 0) {
+      cardFlip(w, windowIndex);
+      playLockout = true;
+      // check image function to see if a match has been found
+      if (checkSrc(windowFlippedOver[windowFlippedOver.length - 1]) == checkSrc(windowFlippedOver[windowFlippedOver.length - 2])) {
+        message.innerHTML = "Match Found. Your doing great  Click for more supercars";
+        playLockout = false;
+        cardFlipped = -1;
+        if (windowFlippedOver.length == windowArray.length) {
+          gameover();
+        }
+      }
+      else {
+        message.innerHTML = "Sorry No Match have another go";
+        timer = setInterval(hideCard, 1000);
+      }
+    }
+    else {
+      cardFlipped = windowIndex;
+      cardFlip(w, windowIndex);
+    }
+  }
+  else {
+    message.innerHTML = "sorry Not clickable";
+  }
+}
