@@ -39,7 +39,7 @@ function buildBoard() {
   var html = "";
   for (var x = 0; x <= (windowArray.length - 1); x++) {
     html += '<div class="layOut"><div class="layOut">'; 
-    html += '<img id="' + x + '" src="images/back 3.jpg" onclick="pickCard(' + x + ',this)" class="flipImage"></div></div>';
+    html += '<img id="' + x + '" src="assets/images/images/cars/back 3.jpg" onclick="pickCard(' + x + ',this)" class="flipImage"></div></div>';
   }
   layout.innerHTML = html;
 }
@@ -79,7 +79,7 @@ function pickCard(windowIndex, w) {
 function hideCard() {
   for (var x = 0; x < 2; x++) {
     var vid = windowFlippedOver.pop();
-    document.getElementById(vid).src = "images/back 3.jpg"; 
+    document.getElementById(vid).src = "assets/images/images/cars/back 3.jpg"; 
   }
   clearInterval(timer);
   playLockout = false;
@@ -104,7 +104,7 @@ function isinArray(v, array) {
 
 
 function cardFlip(w, wi) {
-  w.src = "images/" + windowArray[wi];
+  w.src = "assets/images/images/cars/" + windowArray[wi];
   windowFlippedOver.push(w.id);
 }
 
