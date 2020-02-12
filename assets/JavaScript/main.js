@@ -75,3 +75,15 @@ function pickCard(windowIndex, w) {
     message.innerHTML = "sorry Not clickable";
   }
 }
+
+// game windows flipped and rebuilt using green image back with question mark
+function hideCard() {
+  for (var x = 0; x < 2; x++) {
+    var vid = windowFlippedOver.pop();
+    document.getElementById(vid).src = "images/back 3.jpg"; 
+  }
+  clearInterval(timer);
+  playLockout = false;
+  cardFlipped = -1;
+  message.innerHTML = "Click any window";
+}
