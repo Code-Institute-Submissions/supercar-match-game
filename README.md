@@ -181,9 +181,9 @@ So the feedback was taken onboard and changes were made.
 <p><strong>Deployment</strong> is carried out through <strong>GitHub pages</strong></p>
 <p>You can view the deployed webpage by clicking the link below:</p>
 
-<a href="https://jfsystemsuk.github.io/supercar-memory-game/">Supercar Match Game</a></br>
+<a href="https://jfsystemsuk.github.io/supercar-match-game/.">Supercar Match Game</a></br>
 </br>
-<p>If the link does not work correctly then try "https://jfsystemsuk.github.io/supercar-memory-game/"</p>
+<p>If the link does not work correctly then try "https://jfsystemsuk.github.io/supercar-match-game/"</p>
 </br>
 
 
