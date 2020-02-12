@@ -37,6 +37,17 @@ So the feedback was taken onboard and changes were made.
 <h2>WIREFRAMES.</h2>
 
 
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/wire_frames/10%20x%204.PNG" width="500" >
+
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/wire_frames/5%20x%204.PNG" width="500" >
+
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/wire_frames/media_queries%201.PNG" width="500" >
+
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/wire_frames/media_queries%202.PNG" width="500" >
+
+
+
+
 
 
 
