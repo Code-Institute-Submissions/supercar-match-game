@@ -1,4 +1,4 @@
-<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/logos/SmallLogo.png" width="100" >
+<img src="https://github.com/jfsystemsuk/supercar-match-game/blob/master/assets/logos/SmallLogo.png" width="500" >
 
 
 
